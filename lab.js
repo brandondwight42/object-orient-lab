@@ -114,15 +114,20 @@ console.log(color, make, model, year)
   The property names are firstName, lastName, and title.
 */
 
-function greeting( obj ) {
-  //Code Here
-  
-  // Do not edit the code below.
-  return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
-  // Do not edit the code above.
-}
 
 
+// function greeting( obj ) {
+//   //Code Here
+//   let {firstName} = obj
+//   let {lastName} = obj
+//   let {title} = obj
+
+//   // Do not edit the code below.
+//   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
+//   // Do not edit the code above.
+// }
+
+// greeting()
 
 //////////////////////////// PROBLEM 8 ////////////////////////////
 
@@ -135,7 +140,25 @@ function greeting( obj ) {
 */
 
 //Code Here
+let states = {
+  utah: 1,
+  california: 2,
+  texas: 3,
+  arizona: 4
+}
 
+function totalPopulation(obj){
+  let {utah} = obj
+  let {california} = obj
+  let {texas} = obj
+  let {arizona} = obj
+
+  let sum = utah + california + texas + arizona
+
+  return sum
+}
+
+console.log(totalPopulation(states))
 
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
