@@ -172,8 +172,20 @@ console.log(totalPopulation(states))
 */
 
 //Code Here
+let properties = {
+  property1: 'carb',
+  property2: 'fat',
+  property3: 'protein'
 
+}
 
+function ingredients(obj){
+  let {property1, property2, property3} = obj
+  let array = [property1, property2, property3]
+  return array
+}
+
+console.log(ingredients(properties))
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
