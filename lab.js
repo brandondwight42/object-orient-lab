@@ -5,13 +5,13 @@
 */
 
 //Code here
-const me = {
-  name: 'Brandon',
-  age: 32
-}
+// const me = {
+//   name: 'Brandon',
+//   age: 32
+// }
 
-console.log(me.name)
-console.log(me.age)
+// console.log(me.name)
+// console.log(me.age)
 
 //////////////////////////// PROBLEM 2 ////////////////////////////
 
@@ -21,26 +21,26 @@ console.log(me.age)
 //and goodBoy/goodGirl (a boolean).
 
 //Code here
-const dog = {
-  name: "Lucy",
-  color: 'blonde',
-  age: 13,
-  goodGirl: true
-}
+// const dog = {
+//   name: "Lucy",
+//   color: 'blonde',
+//   age: 13,
+//   goodGirl: true
+// }
 
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
 //Code here
-console.log(dog.name)
+//console.log(dog.name)
 
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
 //Code here
-console.log(dog['color'])
+//console.log(dog['color'])
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
@@ -206,7 +206,10 @@ var user = {
 */
 
 //Code Here
+user.name = 'Bryan G. Smith'
+user.email = 'bryan.smith@devmounta.in'
 
+console.log(user)
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
 /*
