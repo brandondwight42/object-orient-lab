@@ -5,8 +5,13 @@
 */
 
 //Code here
+const me = {
+  name: 'Brandon',
+  age: 32
+}
 
-
+console.log(me.name)
+console.log(me.age)
 
 //////////////////////////// PROBLEM 2 ////////////////////////////
 
