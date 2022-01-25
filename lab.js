@@ -254,6 +254,25 @@ console.log(cat1.color)
 */
 
 //Code here
+class Wizard {
+  constructor(name, age, favoriteSpell){
+    this.name = name
+    this.age = age
+    this.favoriteSpell = favoriteSpell
+  }
+}
+
+let wizard1 = new Wizard('Gandalf', 1256, 'smoke rings')
+
+function castSpell(obj){
+  let {name} = obj
+  let {age} = obj
+  let {favoriteSpell} = obj
+
+  return console.log(`${name} has cast ${favoriteSpell}`)
+}
+
+castSpell(wizard1)
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
